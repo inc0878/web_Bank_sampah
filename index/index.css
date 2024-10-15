@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body covers viewport height */
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 2em;
+    margin-bottom: 2em;
+    text-align: center; /* Center-align header text */
+}
+
+main {
+    flex: 1; /* Expand main content area */
+    padding: 3em;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 2em 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    padding: 1em 2em;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block;
+    margin: 0.5em;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.role-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.role-menu li {
+    margin: 1em;
+}
+
+.role-menu a {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1em 1.5em;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.role-menu a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 2em;
+    margin-top: auto; /* Push footer to the bottom */
+}
